@@ -16,7 +16,6 @@ sys.path.insert(0, os.path.abspath('../../'))
 
 from trim.trim_ import __version__, __author__, __copyright__, __project_name__
 
-
 # -- Project information -----------------------------------------------------
 
 project = __project_name__
