@@ -78,7 +78,7 @@ setup(
     url="https://github.com/pytrim/pytrim",
     project_urls={
         "Bug Tracker": "https://github.com/pytrim/pytrim/issues",
-        "Documentation": "",
+        "Documentation": "https://pytrim.readthedocs.io/",
         "Source Code": "https://github.com/pytrim/pytrim",
     },
 
