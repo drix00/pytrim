@@ -6,7 +6,7 @@
 
 .. moduleauthor:: Hendrix Demers <hendrix.demers@mail.mcgill.ca>
 
-
+TRansport of Ions in Matter (TRIM) modeling implemented in Python.
 """
 
 # Copyright 2019 Hendrix Demers

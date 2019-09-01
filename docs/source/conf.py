@@ -14,7 +14,7 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('../../'))
 
-from trim.montecarlo import __version__, __author__, __copyright__, __project_name__
+from trim.trim_ import __version__, __author__, __copyright__, __project_name__
 
 
 # -- Project information -----------------------------------------------------
@@ -33,6 +33,9 @@ version = __version__
 release = __version__
 
 # -- General configuration ---------------------------------------------------
+
+# The master toctree document.
+master_doc = 'index'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
