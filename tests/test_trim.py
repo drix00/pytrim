@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-.. py:currentmodule:: tests.trim_
+.. py:currentmodule:: tests.test_trim
 
 .. moduleauthor:: Hendrix Demers <hendrix.demers@mail.mcgill.ca>
 
@@ -26,7 +26,6 @@
 # Standard library modules.
 
 # Third party modules.
-import pytest
 
 # Local modules.
 
@@ -42,7 +41,4 @@ def test_namespace_packages():
 
     :return:
     """
-    # with pytest.raises(AttributeError):
-    #     trim_.__file__
-
     assert trim.__file__ is None
