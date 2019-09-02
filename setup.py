@@ -35,7 +35,7 @@ from setuptools.command.test import test as TestCommand
 # Local modules.
 
 # Project modules.
-from trim.trim_ import __author__, __email__, __version__, __copyright__, __project_name__
+from trim.trim_ import __author__, __email__, __version__, __project_name__
 
 # Globals and constants variables.
 here = os.path.abspath(os.path.dirname(__file__))
@@ -64,6 +64,7 @@ class PyTest(TestCommand):
         import pytest
         errcode = pytest.main(self.test_args)
         sys.exit(errcode)
+
 
 setup(
     name=__project_name__,
@@ -97,14 +98,15 @@ setup(
 
     license="Apache Software License 2.0",
     license_file="LICENSE",
-    classifiers=['Development Status :: 4 - Beta',
-                 'Intended Audience :: Developers',
-                 'Intended Audience :: Science/Research',
-                 'Natural Language :: English',
-                 'License :: OSI Approved :: Apache Software License',
-                 'Programming Language :: Python',
-                 'Operating System :: OS Independent',
-                 'Topic :: Scientific/Engineering',
-                 'Topic :: Scientific/Engineering :: Physics'
+    classifiers=[
+        'Development Status :: 4 - Beta',
+        'Intended Audience :: Developers',
+        'Intended Audience :: Science/Research',
+        'License :: OSI Approved :: Apache Software License',
+        'Natural Language :: English',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python :: 3 :: Only',
+        'Topic :: Scientific/Engineering',
+        'Topic :: Scientific/Engineering :: Physics'
     ],
 )
