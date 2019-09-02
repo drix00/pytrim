@@ -89,9 +89,9 @@ setup(
     cmdclass={'test': PyTest},
 
     install_requires=[],
-    tests_require=['pytest'],
+    tests_require=['pytest', 'coverage', 'pytest-cov'],
     extras_require={
-        'testing': ['pytest'],
+        'testing': ['pytest', 'coverage', 'pytest-cov'],
         'develop': ['setuptools', 'Sphinx', 'sphinx-rtd-theme', 'coverage', 'pytest', 'pytest-cov']
     },
 
